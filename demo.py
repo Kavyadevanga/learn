@@ -2,6 +2,7 @@ playing = input("Do you want to play? ")
 
 if playing.lower() != "yes":
     quit()
+print("Okay! Let's Play: ")
 
 score = 0
 
