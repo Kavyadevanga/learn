@@ -1,7 +1,7 @@
 import random
 
 user_win = 0
-computer_win = 0
+computer_wins = 0
 
 options = ['rock', 'paper', 'scirrors']
 
@@ -29,10 +29,10 @@ while True:
         user_win += 1
     else:
         print("You lost!")
-        computer_win += 1
+        computer_wins += 1
 
 print("You won", user_win, "times.")
-print("The computer won", computer_win, "times.")
+print("The computer won", computer_wins, "times.")
 print("Goodbye!")
 
 
