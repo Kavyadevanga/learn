@@ -17,7 +17,7 @@ else:
 
 # Random Number Generation
 random_number = random.randint(0, top_of_range)
-print("Random number:", random_number)
+# print("Random number:", random_number)
 guesses = 0
 
 while True:
